@@ -1,0 +1,39 @@
+div{
+  border-top:2px solid black;
+  width:calc(100%/3);
+  display:inline-block;
+  float:left;
+  text-align:center;
+}
+div:nth-child(2){
+  margin-right:calc(100%/3);
+}
+p{
+  display:block;
+}
+
+.one{
+  width:100%;
+  background-color:blue;
+}
+
+.two{
+  background-color:green;
+}
+
+.three{
+  background-color:red;
+}
+
+.four{
+  background-color:yellow;
+}
+
+section{
+  max-width:800px;
+  margin:auto;
+}
+
+div.selected{
+  background-color:black;
+}
